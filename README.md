@@ -1,4 +1,4 @@
-# 📊 **Projeto de Classificação de Textos com Modelos de Machine Learning**
+# 📊 **Projeto de Classificação de Textos com NLP**
 
 Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Regressão Logística` e `Random Forest` - para realizar a classificação de textos em um conjunto de dados de **tweets**. O objetivo é comparar a capacidade desses modelos em identificar padrões nos textos e fornecer previsões se o texto apresenta um sentimento positivo ou negativo.
 
