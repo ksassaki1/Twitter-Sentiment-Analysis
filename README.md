@@ -33,11 +33,11 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
 Abaixo estão exemplos de nuvens de palavras geradas a partir dos tweets classificados como positivos e negativos:
 
 ### Nuvem de Palavras - Sentimento Positivo
-![Nuvem de Palavras - Sentimento Positivo]([image](https://github.com/user-attachments/assets/4e29bbfa-5caf-4c43-87b4-1d4214089194)
+![Nuvem de Palavras - Sentimento Positivo](nuvempalavrapositivo.png)
 )
 
 ### Nuvem de Palavras - Sentimento Negativo
-![Nuvem de Palavras - Sentimento Negativo]([image](https://github.com/user-attachments/assets/8d8d168b-26b9-4bbf-9df3-ec81e33e09af)
+![Nuvem de Palavras - Sentimento Negativo](nuvempalavranegativo.png)
 )
 
 ---
