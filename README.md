@@ -1,11 +1,11 @@
 # 📊 **Projeto de Classificação de Textos com Modelos de Machine Learning**
 
-Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Regressão Logística` e `Random Forest` - para realizar a classificação de textos em um conjunto de dados de **tweets**. O objetivo é comparar a capacidade desses modelos em identificar padrões nos textos e fornecer previsões precisas.
+Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Regressão Logística` e `Random Forest` - para realizar a classificação de textos em um conjunto de dados de **tweets**. O objetivo é comparar a capacidade desses modelos em identificar padrões nos textos e fornecer previsões se o texto apresenta um sentimento positivo ou negativo.
 
 ---
 
 ## 🎯 **Objetivo**
-- Utilizar **Naive Bayes**, **Logistic Regression**, e **Random Forest** para realizar a classificação de textos.
+- Utilizar **Naive Bayes**, **Logistic Regression**, e **Random Forest** para realizar a classificação de textos em sentimentos positivos ou negativos.
 - Avaliar o desempenho de cada modelo utilizando métricas adequadas, como acurácia, precisão, revocação e F1-score.
 - Demonstrar o uso de diferentes pipelines de pré-processamento (`text_basic`, `text_spacy`, `text_nltk`) para a preparação dos dados.
 
@@ -25,9 +25,8 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
 ### **Arquivos e Diretórios**
 - **`text_classification_project.ipynb`**: Notebook principal contendo:
   - Preparação e limpeza dos dados.
-  - Nuvem de palavras mais comuns positivas e negativas de pré-processamento NLP.
+  - Nuvem de palavras mais comuns separadas por positivas e negativas e por pré-processamento NLP.
   - Treinamento dos modelos **Naive Bayes**, **Logistic Regression**, e **Random Forest**.
-  - Comparação entre os três modelos.
   - Visualização dos resultados e métricas de desempenho.
 
 ---
@@ -69,8 +68,6 @@ Durante os experimentos, os três modelos foram avaliados utilizando os diferent
 - Testar os modelos com outros conjuntos de dados para verificar a generalização.
 - **Ajustar Hiperparâmetros** dos Modelos:
   - Explorar técnicas como `GridSearchCV` ou `RandomizedSearchCV` para encontrar melhores parâmetros.
-- **Equilibrar as Classes**:
-  - Usar técnicas de balanceamento, como `SMOTE`, para melhorar a classificação de classes minoritárias.
 - **Dashboard Interativo**:
   - Desenvolver um dashboard utilizando **Streamlit** ou **Dash** para exibir as previsões e métricas de forma interativa.
 
@@ -82,10 +79,6 @@ Este projeto utilizou a base de dados [Sentiment140](https://www.kaggle.com/data
 
 ---
 
-## 📝 **Licença**
-Este projeto é licenciado sob a [Licença MIT](LICENSE).
-
----
 
 ## 👤 **Autor**
 Guilherme Koiti Tanaka Sassaki  
