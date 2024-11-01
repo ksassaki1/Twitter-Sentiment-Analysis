@@ -92,7 +92,7 @@ Este projeto utilizou a base de dados [Sentiment140](https://www.kaggle.com/data
 ### **Contexto**
 Este é o dataset Sentiment140, que contém 1.600.000 tweets extraídos utilizando a API do Twitter. Os tweets foram anotados para indicar o sentimento:
 - `0` = Sentimento **negativo**
-- `4` = Sentimento **positivo`
+- `4` = Sentimento **positivo**
 
 ### **Estrutura dos Dados**
 O dataset contém os seguintes 6 campos:
