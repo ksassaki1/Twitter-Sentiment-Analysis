@@ -34,11 +34,11 @@ Abaixo estão exemplos de nuvens de palavras geradas a partir dos tweets filtrad
 
 ### Nuvem de Palavras mais comuns no Sentimento Positivo
 ![Nuvem de Palavras - Sentimento Positivo](nuvempalavrapositivo.png)
-)
+
 
 ### Nuvem de Palavras mais comuns no Sentimento Negativo
 ![Nuvem de Palavras - Sentimento Negativo](nuvempalavranegativo.png)
-)
+
 
 ---
 
