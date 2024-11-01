@@ -46,6 +46,8 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
   - **text_spacy:** Utiliza a biblioteca spaCy para lematização e remoção de stopwords, permitindo uma análise mais profunda e refinada dos textos.
   - **text_nltk:** Utiliza a biblioteca NLTK para tokenização e lematização, sendo uma alternativa ao spaCy para processamento de linguagem natural.
 
+**Nota sobre NLP**: O processamento de linguagem natural (NLP) é uma etapa fundamental para preparar os textos de forma que possam ser usados pelos modelos de Machine Learning. Neste projeto, foram utilizados diferentes métodos de NLP para avaliar qual técnica de pré-processamento forneceria melhores resultados na classificação de sentimentos dos tweets.
+
 ---
 
 ## 📊 **Resultados Encontrados**
@@ -75,23 +77,26 @@ Durante os experimentos, os três modelos foram avaliados utilizando os diferent
 
 ## 📊 **Base de Dados Utilizada**
 Este projeto utilizou a base de dados [Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140), que contém 1,6 milhões de tweets rotulados para análise de sentimento.
-- As classes foram rotuladas como `0` para sentimentos **negativos** e `4` para sentimentos **positivos**.
-  
-Estrutura dos Dados
+
+### **Contexto**
+Este é o dataset Sentiment140, que contém 1.600.000 tweets extraídos utilizando a API do Twitter. Os tweets foram anotados para indicar o sentimento:
+- `0` = Sentimento **negativo**
+- `4` = Sentimento **positivo`
+
+### **Estrutura dos Dados**
 O dataset contém os seguintes 6 campos:
+- **target**: Polaridade do tweet (`0` = negativo, `2` = neutro, `4` = positivo)
+- **ids**: Identificador do tweet (exemplo: `2087`)
+- **date**: Data do tweet (exemplo: `Sat May 16 23:58:44 UTC 2009`)
+- **flag**: Consulta realizada (`lyx`). Se não houver consulta, o valor é `NO_QUERY`
+- **user**: Usuário que fez o tweet (exemplo: `robotickilldozr`)
+- **text**: Texto do tweet (exemplo: `"Lyx is cool"`)
 
-target: Polaridade do tweet (0 = negativo, 2 = neutro, 4 = positivo)
-ids: Identificador do tweet (exemplo: 2087)
-date: Data do tweet (exemplo: Sat May 16 23:58:44 UTC 2009)
-flag: Consulta realizada (lyx). Se não houver consulta, o valor é NO_QUERY
-user: Usuário que fez o tweet (exemplo: robotickilldozr)
-text: Texto do tweet (exemplo: "Lyx is cool")
-Neste projeto, foram utilizadas apenas as classes 0 (negativo) e 4 (positivo) para a classificação de sentimentos.
+Neste projeto, foram utilizadas apenas as classes `0` (negativo) e `4` (positivo) para a classificação de sentimentos.
+
 ---
-
 
 ## 👤 **Autor**
 Guilherme Koiti Tanaka Sassaki  
 [LinkedIn](https://www.linkedin.com/in/guilherme-sassaki-10b81ba7/)
-
 
