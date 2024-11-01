@@ -1,6 +1,6 @@
 # 📊 **Projeto de Classificação de Textos com Modelos de Machine Learning**
 
-Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Regressão Logística` e `Random Forest` - para realizar a classificação de textos em um conjunto de dados de **tweets**. O objetivo é comparar a capacidade desses modelos em identificar padrõe nos textos e fornecer previsões de classificação do texto em questão ser positivo ou negativo.
+Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Regressão Logística` e `Random Forest` - para realizar a classificação de textos em um conjunto de dados de **tweets**. O objetivo é comparar a capacidade desses modelos em identificar padrões nos textos e fornecer previsões precisas.
 
 ---
 
@@ -46,6 +46,22 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
   - **text_basic:** Realiza uma limpeza básica dos textos, removendo URLs, menções e caracteres especiais, útil para uma abordagem simples de pré-processamento.
   - **text_spacy:** Utiliza a biblioteca spaCy para lematização e remoção de stopwords, permitindo uma análise mais profunda e refinada dos textos.
   - **text_nltk:** Utiliza a biblioteca NLTK para tokenização e lematização, sendo uma alternativa ao spaCy para processamento de linguagem natural.
+
+---
+
+## 📊 **Resultados Encontrados**
+Durante os experimentos, os três modelos foram avaliados utilizando os diferentes pipelines de pré-processamento (`text_basic`, `text_spacy`, `text_nltk`). Aqui estão os principais resultados encontrados:
+
+- **Pipeline `text_basic`**:
+  - **Logistic Regression** apresentou o melhor desempenho, com uma acurácia de **78%**, seguido por `Naive Bayes` e `Random Forest` ambos com acurácia de **76%**.
+
+- **Pipeline `text_spacy`**:
+  - **Logistic Regression** também foi o melhor modelo, com uma acurácia de **75%**, enquanto `Naive Bayes` e `Random Forest` obtiveram acurácias de **74%**.
+
+- **Pipeline `text_nltk`**:
+  - **Logistic Regression** mais uma vez se destacou, alcançando uma acurácia de **76%**, enquanto `Naive Bayes` e `Random Forest` obtiveram **75%**.
+
+**Conclusão Geral**: O modelo **Logistic Regression** foi consistentemente o melhor entre os três, apresentando o desempenho mais robusto em todos os pipelines de pré-processamento. O pipeline `text_basic` teve um desempenho ligeiramente superior em comparação aos outros métodos de pré-processamento.
 
 ---
 
