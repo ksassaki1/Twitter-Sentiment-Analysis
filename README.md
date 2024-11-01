@@ -41,6 +41,12 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
 - **Random Forest:**
   - Conjunto de árvores de decisão que realiza classificações robustas e melhora a precisão reduzindo o overfitting.
 
+- **Pipelines de Pré-Processamento NLP:**
+  - **text_basic:** Realiza uma limpeza básica dos textos, removendo URLs, menções e caracteres especiais, útil para uma abordagem simples de pré-processamento.
+  - **text_spacy:** Utiliza a biblioteca spaCy para lematização e remoção de stopwords, permitindo uma análise mais profunda e refinada dos textos.
+  - **text_nltk:** Utiliza a biblioteca NLTK para tokenização e lematização, sendo uma alternativa ao spaCy para processamento de linguagem natural.
+  - Conjunto de árvores de decisão que realiza classificações robustas e melhora a precisão reduzindo o overfitting.
+
 ---
 
 ## 🚀 **Próximos Passos**
@@ -65,6 +71,12 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
 
 ## 📝 **Licença**
 Este projeto é licenciado sob a [Licença MIT](LICENSE).
+
+---
+
+## 👤 **Autor**
+Guilherme Koiti Tanaka Sassaki  
+[LinkedIn](https://www.linkedin.com/in/guilherme-sassaki-10b81ba7/)
 
 ---
 
