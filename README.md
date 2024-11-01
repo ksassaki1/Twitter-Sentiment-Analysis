@@ -1,6 +1,6 @@
 # 📊 **Projeto de Classificação de Textos com Modelos de Machine Learning**
 
-Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Regressão Logística` e `Random Forest` - para realizar a classificação de textos em um conjunto de dados de **tweets**. O objetivo é comparar a capacidade desses modelos em identificar padrões nos textos e fornecer previsões precisas.
+Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Regressão Logística` e `Random Forest` - para realizar a classificação de textos em um conjunto de dados de **tweets**. O objetivo é comparar a capacidade desses modelos em identificar padrõe nos textos e fornecer previsões de classificação do texto em questão ser positivo ou negativo.
 
 ---
 
@@ -25,6 +25,7 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
 ### **Arquivos e Diretórios**
 - **`text_classification_project.ipynb`**: Notebook principal contendo:
   - Preparação e limpeza dos dados.
+  - Nuvem de palavras mais comuns positivas e negativas de pré-processamento NLP.
   - Treinamento dos modelos **Naive Bayes**, **Logistic Regression**, e **Random Forest**.
   - Comparação entre os três modelos.
   - Visualização dos resultados e métricas de desempenho.
@@ -45,7 +46,6 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
   - **text_basic:** Realiza uma limpeza básica dos textos, removendo URLs, menções e caracteres especiais, útil para uma abordagem simples de pré-processamento.
   - **text_spacy:** Utiliza a biblioteca spaCy para lematização e remoção de stopwords, permitindo uma análise mais profunda e refinada dos textos.
   - **text_nltk:** Utiliza a biblioteca NLTK para tokenização e lematização, sendo uma alternativa ao spaCy para processamento de linguagem natural.
-  - Conjunto de árvores de decisão que realiza classificações robustas e melhora a precisão reduzindo o overfitting.
 
 ---
 
@@ -60,12 +60,9 @@ Este projeto utiliza três modelos de **Machine Learning** - `Naive Bayes`, `Reg
 
 ---
 
-## 📊 **Sugestões de Aperfeiçoamento**
-1. **Normalização dos Dados:** Utilize escaladores como `StandardScaler` ou `MinMaxScaler` para garantir que os dados estejam na mesma escala, melhorando o desempenho dos modelos.
-2. **Validação Cruzada:** Implementar uma técnica como **Stratified K-Fold** para uma validação mais robusta e confiável.
-3. **Visualização das Métricas:** Adicionar gráficos de barras para comparação visual das métricas de desempenho entre os modelos e as classes.
-4. **Implementação de Modelos Adicionais:** Testar modelos como `SVM` ou `Gradient Boosting` para enriquecer a análise comparativa.
-5. **Otimização de Pipeline:** Automatizar o pré-processamento e a modelagem com **Pipeline** do `scikit-learn` para facilitar a reprodutibilidade.
+## 📊 **Base de Dados Utilizada**
+Este projeto utilizou a base de dados [Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140), que contém 1,6 milhões de tweets rotulados para análise de sentimento.
+- As classes foram rotuladas como `0` para sentimentos **negativos** e `4` para sentimentos **positivos**.
 
 ---
 
@@ -78,9 +75,4 @@ Este projeto é licenciado sob a [Licença MIT](LICENSE).
 Guilherme Koiti Tanaka Sassaki  
 [LinkedIn](https://www.linkedin.com/in/guilherme-sassaki-10b81ba7/)
 
----
-
-## 👤 **Autor**
-Guilherme Koiti Tanaka Sassaki  
-[LinkedIn](https://www.linkedin.com/in/guilherme-sassaki-10b81ba7/)
 
