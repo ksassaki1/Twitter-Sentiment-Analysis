@@ -76,7 +76,17 @@ Durante os experimentos, os três modelos foram avaliados utilizando os diferent
 ## 📊 **Base de Dados Utilizada**
 Este projeto utilizou a base de dados [Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140), que contém 1,6 milhões de tweets rotulados para análise de sentimento.
 - As classes foram rotuladas como `0` para sentimentos **negativos** e `4` para sentimentos **positivos**.
+  
+Estrutura dos Dados
+O dataset contém os seguintes 6 campos:
 
+target: Polaridade do tweet (0 = negativo, 2 = neutro, 4 = positivo)
+ids: Identificador do tweet (exemplo: 2087)
+date: Data do tweet (exemplo: Sat May 16 23:58:44 UTC 2009)
+flag: Consulta realizada (lyx). Se não houver consulta, o valor é NO_QUERY
+user: Usuário que fez o tweet (exemplo: robotickilldozr)
+text: Texto do tweet (exemplo: "Lyx is cool")
+Neste projeto, foram utilizadas apenas as classes 0 (negativo) e 4 (positivo) para a classificação de sentimentos.
 ---
 
 
